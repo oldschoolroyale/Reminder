@@ -3,23 +3,33 @@
 
     <item
         android:title="@string/Notification"
-        android:icon="@drawable/ic_action_sms"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:id="@+id/notification"
+
         />
     <item
-        android:title="@string/favoriet"
-        android:icon="@drawable/ic_action_star"
+        android:title="@string/favourite"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:id="@+id/favourite"
+
         />
     <item
         android:title="@string/Downloads"
-        android:icon="@drawable/ic_action_dwn"
+        android:id="@+id/downloads"
+        android:icon="@drawable/ic_file_download_black_24dp"
+
         />
     <item
         android:title="@string/Settings"
-        android:icon="@drawable/ic_action_settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+
         />
     <item
         android:title="@string/help"
-        android:icon="@drawable/ic_action_help"
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help_black_24dp"
+
         />
 
 
