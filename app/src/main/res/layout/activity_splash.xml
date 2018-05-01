@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:id="@+id/SplashLin">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/materialup_profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/iam"
+            android:elevation="8dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#000"
+            app:layout_scrollFlags="scroll"
+            app:layout_anchorGravity="top|center_horizontal"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="Rakhimjanov S"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:id="@+id/splash_text"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/junior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Junior Android developer"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
