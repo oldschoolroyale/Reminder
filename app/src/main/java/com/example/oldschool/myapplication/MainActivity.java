@@ -8,9 +8,12 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import com.example.oldschool.myapplication.adapter.TabsPagerFragmentAdapter;
 
@@ -23,6 +26,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(LAYOUT);
         initTabs();
+
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
