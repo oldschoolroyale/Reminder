@@ -12,4 +12,10 @@
     <string name="Downloads">Архив</string>
     <string name="Settings">Настройки</string>
     <string name="help">Справка</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="atab_item_history">HISTORY</string>
+    <string name="atab_item_ideas">IDEAS</string>
+    <string name="atab_item_TODO">TODO</string>
+    <string name="atab_item_birthday">BIRTHDAY</string>
 </resources>
